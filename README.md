@@ -7,7 +7,7 @@ all of that done virtually.
 ## Installation
 
 1. Clone the repository to your local machine:
-git clone [https://github.com/yourusername/memory-allocation-web-service.git](https://github.com/RubaIrshaid2/Resource-Management-System-)
+git clone [https://github.com/RubaIrshaid2/memory-allocation-web-service.git](https://github.com/RubaIrshaid2/Resource-Management-System-)
 
 2. Open the project in your favorite Java IDE (e.g. Eclipse, IntelliJ IDEA, NetBeans).
 3. Build the project using Gradle
