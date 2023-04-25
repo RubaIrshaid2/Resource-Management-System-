@@ -1,5 +1,8 @@
 package com.example.server_management_application.service;
 
+import com.example.server_management_application.dto.ServerDTO;
+import com.example.server_management_application.mapper.ServerMapper;
+import com.example.server_management_application.mapper.ServerMapperImpl;
 import com.example.server_management_application.model.Server;
 import com.example.server_management_application.repository.ServerRepository;
 import org.apache.log4j.Logger;
@@ -9,15 +12,16 @@ import java.util.stream.IntStream;
 
 public class MemoryAllocationService implements Runnable{
     private static final Logger logger = Logger.getLogger(String.valueOf(MemoryAllocationService.class));
+    static ServerMapperImpl serverMapper = new ServerMapperImpl();
     private int size;
-    private Server sever ;
+    private ServerDTO sever ;
 
     public MemoryAllocationService(int size) {
         logger.info("MemoryAllocationService constructor");
         this.size = size;
     }
 
-    public Server getSever() {
+    public ServerDTO getSever() {
         return sever;
     }
 
@@ -29,10 +33,10 @@ public class MemoryAllocationService implements Runnable{
     }
 
 
-    public static synchronized Server allocateMemory(int size)
+    public static synchronized ServerDTO allocateMemory(int size)
     {
         logger.info("Inside Allocating function to allocate " + size + " GB");
-        List<Server>servers = ServerRepository.getServers();
+        List<ServerDTO>servers = ServerRepository.getServers();
         Server selectedServer = new Server();
         int index = IntStream.range(0, servers.size())
                 .filter(i -> servers.get(i).getFreeMemory() >= size && servers.get(i).isActive())
@@ -44,7 +48,7 @@ public class MemoryAllocationService implements Runnable{
             int freeMemory = servers.get(index).getFreeMemory()-size;
             servers.get(index).setFreeMemory(freeMemory);
             ServerRepository.updateServersList(index , freeMemory);
-            selectedServer.cloneServer(servers.get(index));
+            selectedServer.cloneServer(serverMapper.ToEntity(servers.get(index)));
         }
         else
         {
@@ -62,7 +66,7 @@ public class MemoryAllocationService implements Runnable{
             }
         }
         logger.info("allocating memory was done");
-        return selectedServer;
+        return serverMapper.ToDTO(selectedServer);
     }
 
 

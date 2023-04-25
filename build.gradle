@@ -28,6 +28,8 @@ dependencies {
     implementation('org.glassfish.jersey.inject:jersey-cdi2-se:2.34')
     implementation('org.jboss.weld.se:weld-se-core:3.1.8.Final')
     implementation ('log4j:log4j:1.2.17')
+    implementation "org.mapstruct:mapstruct:1.5.3.Final"
+    annotationProcessor "org.mapstruct:mapstruct-processor:1.5.3.Final"
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")

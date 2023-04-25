@@ -2928,3 +2928,113 @@ java.lang.Exception: Something went wrong when the request is sent
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:750)
+2023-04-26 00:27:08,115 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 71e2ef55-f6d1-4cb2-adb5-fcfca12077af shut down
+2023-04-26 00:27:12,114 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:27:12,171 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:27:12,250 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:27:12,667 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 2b7a8781-b6b3-4371-906b-75564fcc2c8d initialized
+2023-04-26 00:30:10,930 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 2b7a8781-b6b3-4371-906b-75564fcc2c8d shut down
+2023-04-26 00:30:14,931 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:30:15,005 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:30:15,095 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:30:15,539 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container bdd38f3e-c5fd-4b62-ac6c-1bdb93f1bf68 initialized
+2023-04-26 00:34:24,765 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:34:24,765 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-69
+2023-04-26 00:34:24,765 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 10 GB of memory
+2023-04-26 00:34:24,765 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 10 GB
+2023-04-26 00:34:24,769 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 00:34:34,780 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 00:34:34,780 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:37:09,073 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container bdd38f3e-c5fd-4b62-ac6c-1bdb93f1bf68 shut down
+2023-04-26 00:37:12,598 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:37:12,656 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:37:12,761 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:37:13,293 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 95ed038c-1fe5-4646-9306-09cfa9427cc1 initialized
+2023-04-26 00:38:08,873 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 95ed038c-1fe5-4646-9306-09cfa9427cc1 shut down
+2023-04-26 00:38:12,726 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:38:12,779 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:38:12,855 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:38:13,666 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container e353d3e6-b493-4319-9366-8f9f021a4efc initialized
+2023-04-26 00:40:00,412 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container e353d3e6-b493-4319-9366-8f9f021a4efc shut down
+2023-04-26 00:40:03,648 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:40:03,702 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:40:03,775 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:40:04,180 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 7601938f-0034-482d-8b69-5ea966caed63 initialized
+2023-04-26 00:41:20,829 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 7601938f-0034-482d-8b69-5ea966caed63 shut down
+2023-04-26 00:41:24,275 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:41:24,332 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:41:24,414 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:41:24,834 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 7056fd0e-d592-4807-936c-dde20232ad62 initialized
+2023-04-26 00:41:38,747 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:41:38,749 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-96
+2023-04-26 00:41:38,749 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 10 GB of memory
+2023-04-26 00:41:38,749 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 10 GB
+2023-04-26 00:41:38,751 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 00:41:48,765 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 00:41:48,765 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:42:06,469 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:42:06,470 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-97
+2023-04-26 00:42:06,470 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 20 GB of memory
+2023-04-26 00:42:06,470 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 20 GB
+2023-04-26 00:42:06,470 INFO class com.example.server_management_application.service.MemoryAllocationService: The selected server to allocate 20 GB of memory is server_0
+2023-04-26 00:42:06,470 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:42:09,517 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:42:09,517 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-98
+2023-04-26 00:42:09,518 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 20 GB of memory
+2023-04-26 00:42:09,518 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 20 GB
+2023-04-26 00:42:09,518 INFO class com.example.server_management_application.service.MemoryAllocationService: The selected server to allocate 20 GB of memory is server_0
+2023-04-26 00:42:09,518 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:42:10,345 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:42:10,345 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-99
+2023-04-26 00:42:10,346 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 20 GB of memory
+2023-04-26 00:42:10,346 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 20 GB
+2023-04-26 00:42:10,346 INFO class com.example.server_management_application.service.MemoryAllocationService: The selected server to allocate 20 GB of memory is server_0
+2023-04-26 00:42:10,346 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:45:01,030 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 7056fd0e-d592-4807-936c-dde20232ad62 shut down
+2023-04-26 00:45:04,358 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:45:04,410 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:45:04,509 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:45:04,967 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container c0ac8da0-571b-4efd-bd33-b985c82346b8 initialized
+2023-04-26 00:45:49,474 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container c0ac8da0-571b-4efd-bd33-b985c82346b8 shut down
+2023-04-26 00:45:53,491 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:45:53,550 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:45:53,644 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:45:54,089 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 386ba6bd-f4c9-434a-ae45-bfe2828a611d initialized
+2023-04-26 00:45:59,411 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 00:45:59,413 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-112
+2023-04-26 00:45:59,414 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 50 GB of memory
+2023-04-26 00:45:59,414 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 50 GB
+2023-04-26 00:45:59,415 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 00:46:09,425 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 00:46:09,425 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 00:55:25,255 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 386ba6bd-f4c9-434a-ae45-bfe2828a611d shut down
+2023-04-26 00:55:28,945 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 00:55:29,026 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 00:55:29,138 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 00:55:29,665 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container bbe9e134-362d-4e79-9892-36af27e0b120 initialized
+2023-04-26 01:12:42,145 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container bbe9e134-362d-4e79-9892-36af27e0b120 shut down
+2023-04-26 01:12:45,676 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 01:12:45,729 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 01:12:45,818 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 01:12:46,235 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 08eaf829-5ea1-4e62-9c68-a210e6f8598b initialized
+2023-04-26 01:13:08,297 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 01:13:08,299 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-125
+2023-04-26 01:13:08,299 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 50 GB of memory
+2023-04-26 01:13:08,299 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 50 GB
+2023-04-26 01:13:08,300 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 01:13:13,520 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 01:13:13,520 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-126
+2023-04-26 01:13:13,521 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 60 GB of memory
+2023-04-26 01:13:18,311 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 01:13:18,311 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 01:13:18,312 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 60 GB
+2023-04-26 01:13:18,312 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 01:13:28,318 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 01:13:28,318 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 01:13:37,150 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 01:13:37,151 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-127
+2023-04-26 01:13:37,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 80 GB of memory
+2023-04-26 01:13:37,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 80 GB
+2023-04-26 01:13:37,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 01:13:47,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 01:13:47,151 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
