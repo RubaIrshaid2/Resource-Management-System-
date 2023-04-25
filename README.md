@@ -26,14 +26,19 @@ POST booking : Allocates memory on a server. The request body should contain a J
 Request:
 
 POST /booking
-{\n
-    "size": 70\n
+{
+
+    "size": 70
+    
 }
 
 Response:
 {
+
     "serverId": "0",
+    
     "status": "ACTIVE"
+    
 }
 
 ### **Notes**
