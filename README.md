@@ -35,7 +35,7 @@ Response:
     "status": "ACTIVE"
 }
 
-### ** Notes**
+### **Notes**
 . The system will not overbook servers.
 . The maximum capacity of a server is 100 GB.
 . The system can handle multiple allocation requests simultaneously.
