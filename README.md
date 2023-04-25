@@ -17,7 +17,7 @@ git clone [https://github.com/RubaIrshaid2/memory-allocation-web-service.git](ht
 
 The following endpoints are available:
 
-GET booking/all: Returns a list of all existing serversand their details.
+GET booking : Returns a list of all existing serversand their details.
 
 POST booking : Allocates memory on a server. The request body should contain a JSON object with a size field indicating the amount of memory to allocate (in GB).
 
