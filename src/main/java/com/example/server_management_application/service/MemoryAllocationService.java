@@ -1,42 +1,64 @@
 package com.example.server_management_application.service;
-
 import com.example.server_management_application.dto.ServerDTO;
-import com.example.server_management_application.mapper.ServerMapper;
 import com.example.server_management_application.mapper.ServerMapperImpl;
 import com.example.server_management_application.model.Server;
 import com.example.server_management_application.repository.ServerRepository;
 import org.apache.log4j.Logger;
-
 import java.util.List;
 import java.util.stream.IntStream;
-
+/**
+ * The MemoryAllocationService class is responsible for allocating memory for servers. It implements the Runnable
+ * interface so it can run in a separate thread. It provides a method to allocate memory and returns a ServerDTO object
+ * that represents the server which the memory has been allocated on.
+ */
 public class MemoryAllocationService implements Runnable{
+    /**
+     * A Logger object for logging messages.
+     */
     private static final Logger logger = Logger.getLogger(String.valueOf(MemoryAllocationService.class));
     static ServerMapperImpl serverMapper = new ServerMapperImpl();
     private int size;
     private ServerDTO sever ;
-
+    /**
+     * Constructor for MemoryAllocationService class.
+     *
+     * @param size The amount of memory to be allocated in GB.
+     */
     public MemoryAllocationService(int size) {
         logger.info("MemoryAllocationService constructor");
         this.size = size;
     }
-
+    /**
+     * Getter method for the sever instance variable.
+     *
+     * @return The ServerDTO object that represents the server which the memory has been allocated on.
+     */
     public ServerDTO getSever() {
         return sever;
     }
-
+    /**
+     * The run method is implemented from the Runnable interface. It is responsible for running the MemoryAllocationService
+     * instance in a separate thread.
+     */
     @Override
     public void run() {
         logger.info("running "+ Thread.currentThread().getName());
         logger.info("Allocating "+ size +" GB of memory");
         sever = allocateMemory(size);
     }
-
-
+    /**
+     * The allocateMemory method is responsible for allocating memory for the servers. It selects a server that has enough
+     * free memory to allocate the required amount of memory on it. If no server has enough free memory, it creates a new
+     * server with 100 GB of memory and allocate the required amount of memory on it. It then returns a ServerDTO object that
+     * represents the selected server.
+     *
+     * @param size The amount of memory to be allocated in GB.
+     * @return The ServerDTO object that represents the server which the memory has been allocated on.
+     */
     public static synchronized ServerDTO allocateMemory(int size)
     {
         logger.info("Inside Allocating function to allocate " + size + " GB");
-        List<ServerDTO>servers = ServerRepository.getServers();
+        List<Server>servers = ServerRepository.getServers();
         Server selectedServer = new Server();
         int index = IntStream.range(0, servers.size())
                 .filter(i -> servers.get(i).getFreeMemory() >= size && servers.get(i).isActive())
@@ -48,7 +70,7 @@ public class MemoryAllocationService implements Runnable{
             int freeMemory = servers.get(index).getFreeMemory()-size;
             servers.get(index).setFreeMemory(freeMemory);
             ServerRepository.updateServersList(index , freeMemory);
-            selectedServer.cloneServer(serverMapper.ToEntity(servers.get(index)));
+            selectedServer.cloneServer(servers.get(index));
         }
         else
         {
@@ -68,6 +90,4 @@ public class MemoryAllocationService implements Runnable{
         logger.info("allocating memory was done");
         return serverMapper.ToDTO(selectedServer);
     }
-
-
 }

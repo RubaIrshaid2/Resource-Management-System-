@@ -1,15 +1,33 @@
 package com.example.server_management_application.service;
-
 import com.example.server_management_application.dto.ServerDTO;
+import com.example.server_management_application.mapper.ServerMapperImpl;
 import com.example.server_management_application.model.Server;
+import com.example.server_management_application.repository.ServerRepository;
 import org.apache.log4j.Logger;
+import java.util.ArrayList;
+import java.util.List;
 
+/**
+ *The ServerBookingService class provides methods to book a server and get a list of all servers.
+ */
 public class ServerBookingService {
+    /**
+     * A ServerMapperImpl object for mapping between Server and ServerDTO objects.
+     */
+    static ServerMapperImpl serverMapper = new ServerMapperImpl();
+    /**
+     * A Logger object for logging messages.
+     */
     private static final Logger logger = Logger.getLogger(String.valueOf(ServerBookingService.class));
+    /**
+     * Allocates memory on a server and returns the server details as a ServerDTO object.
+     *
+     * @param size the amount of memory to allocate on the server in GB
+     * @return a ServerDTO object containing details of the allocated server
+     * @throws InterruptedException if the thread is interrupted while waiting for memory allocation
+     */
     public ServerDTO initialThread(int size) throws InterruptedException {
         try {
-            if(size<0 || size > 100)
-                throw new IllegalArgumentException("the size of the memory should be between 0 and 100 GB");
             MemoryAllocationService memoryAllocationService = new MemoryAllocationService(size);
             Thread memoryAllocationThread = new Thread(memoryAllocationService);
             memoryAllocationThread.start();
@@ -22,5 +40,19 @@ public class ServerBookingService {
 
         }
         return null;
+    }
+    /**
+     * Retrieves a list of all servers and returns it as a list of ServerDTO objects.
+     *
+     * @return a list of ServerDTO objects containing details of all servers
+     */
+    public List<ServerDTO> getAllServers()
+    {
+        List<Server> servers = ServerRepository.getServers();;
+        List<ServerDTO> dto = new ArrayList<>();
+
+        for(Server s : servers)
+            dto.add(serverMapper.ToDTO(s));
+        return dto;
     }
 }

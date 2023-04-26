@@ -3038,3 +3038,28 @@ java.lang.Exception: Something went wrong when the request is sent
 2023-04-26 01:13:37,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
 2023-04-26 01:13:47,151 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
 2023-04-26 01:13:47,151 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 02:24:41,908 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 08eaf829-5ea1-4e62-9c68-a210e6f8598b shut down
+2023-04-26 02:24:46,695 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 02:24:46,779 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 02:24:46,931 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 02:24:47,431 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 5677f97c-b546-4463-ac58-d143213fd4df initialized
+2023-04-26 02:24:54,804 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 02:24:54,808 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-134
+2023-04-26 02:24:54,808 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 80 GB of memory
+2023-04-26 02:24:54,808 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 80 GB
+2023-04-26 02:24:54,812 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 02:25:04,820 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 02:25:04,820 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 02:25:23,127 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 5677f97c-b546-4463-ac58-d143213fd4df shut down
+2023-04-26 20:21:42,702 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-26 20:21:42,977 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-26 20:21:43,171 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-26 20:21:44,437 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 645232b7-ab8c-49d6-b060-ba4260fad711 initialized
+2023-04-26 20:22:12,284 INFO class com.example.server_management_application.service.MemoryAllocationService: MemoryAllocationService constructor
+2023-04-26 20:22:12,287 INFO class com.example.server_management_application.service.MemoryAllocationService: running Thread-16
+2023-04-26 20:22:12,287 INFO class com.example.server_management_application.service.MemoryAllocationService: Allocating 80 GB of memory
+2023-04-26 20:22:12,287 INFO class com.example.server_management_application.service.MemoryAllocationService: Inside Allocating function to allocate 80 GB
+2023-04-26 20:22:12,293 INFO class com.example.server_management_application.service.MemoryAllocationService: Creating a new server
+2023-04-26 20:22:22,308 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
+2023-04-26 20:22:22,308 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
+2023-04-26 20:23:44,046 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 645232b7-ab8c-49d6-b060-ba4260fad711 shut down
