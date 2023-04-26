@@ -91,4 +91,16 @@ public class ServerDTO {
         Gson gson = new Gson();
         return gson.toJson(this);
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        ServerDTO other = (ServerDTO) obj;
+        return name.equals(other.name) && freeMemory == other.freeMemory && active == other.active;
+    }
 }

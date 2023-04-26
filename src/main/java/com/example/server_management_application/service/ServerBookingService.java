@@ -11,6 +11,15 @@ import java.util.List;
  *The ServerBookingService class provides methods to book a server and get a list of all servers.
  */
 public class ServerBookingService {
+
+    ServerRepository sRepo;
+
+    public ServerBookingService(ServerRepository sRepo) {
+        this.sRepo = sRepo;
+    }
+
+    public ServerBookingService() {}
+
     /**
      * A ServerMapperImpl object for mapping between Server and ServerDTO objects.
      */
