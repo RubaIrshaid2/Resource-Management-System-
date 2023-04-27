@@ -12,7 +12,7 @@ import java.util.List;
  */
 public class ServerBookingService {
 
-    ServerRepository sRepo;
+    private static ServerRepository sRepo = new ServerRepository();
 
     public ServerBookingService(ServerRepository sRepo) {
         this.sRepo = sRepo;
@@ -45,7 +45,7 @@ public class ServerBookingService {
         }
         logger.info("running");
         logger.info("Inside Allocating function to allocate " + size + " GB");
-        Server selectedServer = ServerRepository.getSuitableServer(size);
+        Server selectedServer = sRepo.getSuitableServer(size);
         if(selectedServer!=null)
         {
             logger.info("The selected server to allocate "+ size +" GB of memory is "+ selectedServer.getName());
@@ -57,8 +57,8 @@ public class ServerBookingService {
             logger.info("Creating a new server");
             try {
                 Thread.sleep(10000);
-                Server NewlyCreatedServer = new Server(ServerRepository.getLastId() , "server_" + ServerRepository.getLastId() , 100-size , true);
-                ServerRepository.addServer(NewlyCreatedServer);
+                Server NewlyCreatedServer = new Server(sRepo.getLastId() , "server_" + sRepo.getLastId() , 100-size , true);
+                sRepo.addServer(NewlyCreatedServer);
                 logger.info("Server created successfully");
                 selectedServer = NewlyCreatedServer;
             }
@@ -77,7 +77,7 @@ public class ServerBookingService {
      */
     public List<ServerDTO> getAllServers()
     {
-        List<Server> servers = ServerRepository.getServers();
+        List<Server> servers = sRepo.getServers();
         List<ServerDTO> dto = new ArrayList<>();
 
         for(Server s : servers)

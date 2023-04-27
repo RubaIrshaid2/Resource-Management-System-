@@ -12,13 +12,13 @@ public class ServerRepository {
     /**
      * a list to store the servers
      */
-    private static List<Server> servers = new ArrayList<>();
+    private List<Server> servers = new ArrayList<>();
     /**
      * Returns a list of all servers.
      *
      * @return A list of Server objects.
      */
-    public static List<Server> getServers() {
+    public List<Server> getServers() {
         return servers;
     }
     /**
@@ -26,11 +26,11 @@ public class ServerRepository {
      *
      * @param server The Server object to be added.
      */
-    public static void addServer (Server server)
+    public void addServer (Server server)
     {
         servers.add(server);
     }
-    public static Server getSuitableServer(int size)
+    public Server getSuitableServer(int size)
     {
         Optional<Server> s = servers.stream()
                 .filter(server-> server.getFreeMemory()>=size && server.isActive())
@@ -38,7 +38,7 @@ public class ServerRepository {
 
         return s.isPresent()? s.get() : null ;
     }
-    public static int getLastId()
+    public int getLastId()
     {
         return servers.size();
     }

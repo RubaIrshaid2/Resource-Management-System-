@@ -3146,3 +3146,159 @@ java.lang.Exception: Something went wrong when the request is sent
 2023-04-27 15:05:58,517 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
 2023-04-27 15:05:58,688 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
 2023-04-27 15:05:58,878 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:06:14,846 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:06:15,100 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:06:15,326 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:06:16,386 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 7a7062d6-72ee-4c6f-99ef-71d1737be3db initialized
+2023-04-27 15:06:27,923 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:06:27,924 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 15:06:27,925 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:06:37,936 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:06:37,937 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:06:50,674 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:06:50,674 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 10 GB
+2023-04-27 15:06:50,675 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 10 GB of memory is server_0
+2023-04-27 15:06:50,675 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:46:38,347 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 7a7062d6-72ee-4c6f-99ef-71d1737be3db shut down
+2023-04-27 15:46:48,378 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:46:48,527 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:46:48,712 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:46:49,855 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 130cc9ff-877d-4a0e-b212-a31ee295028d initialized
+2023-04-27 15:47:11,243 WARN class com.example.server_management_application.service.ServerBookingService: the size of the memory to be located should be between 0 and 100 GB
+2023-04-27 15:47:16,051 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:47:16,052 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:47:16,052 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:47:26,063 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:47:26,063 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:47:29,913 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:47:29,913 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:47:29,914 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:47:39,916 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:47:39,917 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:48:07,523 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:48:07,524 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:48:07,524 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:48:17,529 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:48:17,529 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:48:23,589 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:48:23,589 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:48:23,589 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:48:33,601 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:48:33,601 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:50:35,102 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 130cc9ff-877d-4a0e-b212-a31ee295028d shut down
+2023-04-27 15:50:41,732 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:50:42,065 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:50:42,274 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:50:43,162 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container af11c24b-8abe-40bd-9a79-caaf71acc447 initialized
+2023-04-27 15:50:47,474 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:50:47,475 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:50:47,477 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:50:57,483 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:50:57,483 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:50:59,837 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:50:59,837 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:50:59,838 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 11 GB of memory is server_0
+2023-04-27 15:50:59,838 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:51:01,282 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:51:01,282 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:51:01,285 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 11 GB of memory is server_0
+2023-04-27 15:51:01,285 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:51:02,285 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:51:02,285 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:51:02,285 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 11 GB of memory is server_0
+2023-04-27 15:51:02,285 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:51:03,538 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:51:03,539 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 11 GB
+2023-04-27 15:51:03,539 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 11 GB of memory is server_0
+2023-04-27 15:51:03,539 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:51:13,471 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:51:13,474 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 15:51:13,474 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:51:23,486 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:51:23,486 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:19:11,200 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:19:11,203 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:19:11,205 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:19:21,223 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:19:21,224 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:20:48,589 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:20:48,592 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:20:48,596 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:20:58,606 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:20:58,607 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:20:58,613 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:20:58,613 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:20:58,613 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:21:08,624 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:21:08,624 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:21:32,510 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:21:32,513 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:21:32,515 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:21:42,534 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:21:42,534 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:21:42,540 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:21:42,540 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 60 GB
+2023-04-27 16:21:42,540 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:21:52,550 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:21:52,550 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:25:30,467 WARN class com.example.server_management_application.service.ServerBookingService: the size of the memory to be located should be between 0 and 100 GB
+2023-04-27 16:30:17,920 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:30:17,923 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:30:17,925 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:30:27,930 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:30:27,930 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:30:27,938 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:30:27,939 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:30:27,941 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:30:27,941 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:30:46,617 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:30:46,620 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:30:46,621 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:30:56,633 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:30:56,634 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:31:11,953 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:31:11,956 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:31:11,960 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:31:11,961 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:15,366 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:15,368 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:32:15,372 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:32:15,373 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:26,724 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:26,732 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:32:26,734 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:32:36,749 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:32:36,749 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:36,756 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:36,756 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:32:36,759 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:32:36,759 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:46,256 WARN class com.example.server_management_application.service.ServerBookingService: the size of the memory to be located should be between 0 and 100 GB
+2023-04-27 16:32:46,311 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:46,312 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:32:46,322 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:32:56,330 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:32:56,330 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:56,332 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:56,333 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:32:56,334 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:32:56,335 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:32:56,343 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:32:56,343 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:32:56,343 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:33:06,346 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:33:06,347 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:34:48,886 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:34:48,889 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 20 GB
+2023-04-27 16:34:48,891 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:34:58,912 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:34:58,913 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:34:58,922 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:34:58,922 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 40 GB
+2023-04-27 16:34:58,923 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 40 GB of memory is server_0
+2023-04-27 16:34:58,923 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 16:34:58,924 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 16:34:58,924 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 16:34:58,924 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 16:35:08,930 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 16:35:08,930 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
