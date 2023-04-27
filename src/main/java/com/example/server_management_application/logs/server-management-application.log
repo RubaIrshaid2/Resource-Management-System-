@@ -3063,3 +3063,86 @@ java.lang.Exception: Something went wrong when the request is sent
 2023-04-26 20:22:22,308 INFO class com.example.server_management_application.service.MemoryAllocationService: Server created successfully
 2023-04-26 20:22:22,308 INFO class com.example.server_management_application.service.MemoryAllocationService: allocating memory was done
 2023-04-26 20:23:44,046 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 645232b7-ab8c-49d6-b060-ba4260fad711 shut down
+2023-04-27 14:35:27,264 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 14:35:27,474 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 14:35:27,653 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 14:35:29,802 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container b2bd6d90-a22b-4527-be58-a630508ae369 initialized
+2023-04-27 14:35:43,747 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:35:43,748 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 14:35:43,753 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 14:35:53,757 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 14:35:53,757 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 14:52:25,135 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container b2bd6d90-a22b-4527-be58-a630508ae369 shut down
+2023-04-27 14:52:34,289 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 14:52:34,479 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 14:52:34,811 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 14:52:35,849 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 2ab95a17-8580-468a-9956-33e9ba5e6d11 initialized
+2023-04-27 14:52:46,199 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:52:46,200 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 14:57:40,195 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 2ab95a17-8580-468a-9956-33e9ba5e6d11 shut down
+2023-04-27 14:57:46,220 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 14:57:46,366 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 14:57:46,759 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 14:57:48,250 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container d64d9498-d5e5-48c0-bdbb-4a1aee95d984 initialized
+2023-04-27 14:57:55,781 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:57:55,781 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 14:57:55,782 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 14:58:05,798 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 14:58:05,798 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 14:58:19,655 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:58:19,655 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 14:58:19,655 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 14:58:29,660 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 14:58:29,660 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 14:58:41,300 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container d64d9498-d5e5-48c0-bdbb-4a1aee95d984 shut down
+2023-04-27 14:58:48,649 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 14:58:48,756 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 14:58:48,976 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 14:58:49,999 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container 4261cf95-2a7d-4cce-9d84-05b3d90bb4a4 initialized
+2023-04-27 14:58:56,887 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:58:56,889 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 80 GB
+2023-04-27 14:58:56,889 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 14:59:06,898 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 14:59:06,899 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 14:59:25,804 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 14:59:25,804 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 10 GB
+2023-04-27 14:59:25,804 INFO class com.example.server_management_application.service.ServerBookingService: The selected server to allocate 10 GB of memory is server_0
+2023-04-27 14:59:25,804 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:00:08,515 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:00:08,516 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 15:00:08,516 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:00:18,527 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:00:18,527 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:00:22,319 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container 4261cf95-2a7d-4cce-9d84-05b3d90bb4a4 shut down
+2023-04-27 15:00:28,627 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:00:28,735 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:00:28,900 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:00:29,727 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container cdefb6cb-9c7a-4d64-94c0-915347028813 initialized
+2023-04-27 15:00:29,934 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container cdefb6cb-9c7a-4d64-94c0-915347028813 shut down
+2023-04-27 15:00:45,975 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:00:46,324 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:00:46,563 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:00:47,720 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container d28ef747-0ce3-432b-b0f4-86b41c4181cf initialized
+2023-04-27 15:01:04,504 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:01:04,508 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 15:01:04,509 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:01:14,515 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:01:14,516 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:01:20,790 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:01:20,790 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 15:01:20,790 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:01:30,795 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:01:30,795 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:02:27,505 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:02:27,794 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:02:28,023 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+2023-04-27 15:02:29,163 INFO org.jboss.weld.Bootstrap: WELD-ENV-002003: Weld SE container f942dbc6-a6fc-45e1-bdc6-2a213be0f129 initialized
+2023-04-27 15:02:56,677 INFO class com.example.server_management_application.service.ServerBookingService: running
+2023-04-27 15:02:57,879 INFO class com.example.server_management_application.service.ServerBookingService: Inside Allocating function to allocate 90 GB
+2023-04-27 15:03:11,001 INFO class com.example.server_management_application.service.ServerBookingService: Creating a new server
+2023-04-27 15:05:30,724 INFO class com.example.server_management_application.service.ServerBookingService: Server created successfully
+2023-04-27 15:05:30,724 INFO class com.example.server_management_application.service.ServerBookingService: allocating memory was done
+2023-04-27 15:05:49,737 INFO org.jboss.weld.Bootstrap: WELD-ENV-002001: Weld SE container f942dbc6-a6fc-45e1-bdc6-2a213be0f129 shut down
+2023-04-27 15:05:58,517 INFO org.jboss.weld.Version: WELD-000900: 3.1.8 (Final)
+2023-04-27 15:05:58,688 INFO org.jboss.weld.Bootstrap: WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+2023-04-27 15:05:58,878 INFO org.jboss.weld.Bootstrap: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.

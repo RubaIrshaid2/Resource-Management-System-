@@ -39,18 +39,6 @@ public class Server {
         this.freeMemory = freeMemory;
         this.active = active;
     }
-
-    /**
-     * Clones the properties of the specified server object to this server object.
-     *
-     * @param server the server object to clone
-     */
-    public void cloneServer(Server server) {
-        this.id = server.id;
-        this.name = server.name;
-        this.freeMemory = server.freeMemory;
-        this.active = server.active;
-    }
     /**
      * Returns the id of the server.
      *

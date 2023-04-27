@@ -24,14 +24,20 @@ public class ServerBookingResource {
     @POST
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response locateMemory(Integer size) throws InterruptedException {
-        if(size<0 || size > 100)
+    public Response locateMemory(Integer size) {
+
+        try
+        {
+            ServerDTO server = serverBooking.allocateMemory(size);
+            return Response.ok(server.toJSON(), MediaType.APPLICATION_JSON).build();
+        }
+        catch (Exception e)
+        {
             return Response.status(Response.Status.NOT_FOUND)
-                    .entity("the size of the memory should be between 0 and 100 GB")
+                    .entity(e.getMessage())
                     .type(MediaType.APPLICATION_JSON)
                     .build();
-        ServerDTO server = serverBooking.initialThread(size);
-        return Response.ok(server.toJSON(), MediaType.APPLICATION_JSON).build();
+        }
     }
 
     /**
